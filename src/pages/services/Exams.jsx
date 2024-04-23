@@ -1,4 +1,3 @@
-import React from 'react'
 import Faq from '../home/Faq';
 import Process from '../home/Process';
 import LogoGrid from '../home/LogoGrid'
@@ -7,13 +6,19 @@ import Testimonial from '../home/Testimonial';
 import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Subject from '../../components/Subject';
-import Proofs from '../../components/Proofs';
 import CtaOne from "../home/CtaOne";
 import CtaTwo from "../home/CtaTwo";
 import TrustSec from '../../components/TrustSec';
 import '../home/Home.css'
 
 const Exams = () => {
+    const images = [
+        { img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/ss1.png?v=1713880333" },
+        { img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/ss2.png?v=1713880339" },
+        { img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/ss3.png?v=1713880339" },
+        { img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/ss4.png?v=1713880338" },
+    ]
+    
     return (
         <>
 
@@ -119,7 +124,23 @@ const Exams = () => {
             <CtaOne text="Take my exam" />
 
             {/* --------------- PROOF ---------------  */}
-            <Proofs />
+            <section className='bg-white'>
+                <div className="max-w-5xl px-5 sm:px-0 mx-auto pt-20 pb-10">
+                    {/* --------------- HEADER TEXT ---------------  */}
+                    <h2 className="mb-3 font-bold text-2xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">Proof of Our Excellence:</h2>
+                    <h2 className="mb-3 font-bold text-2xl md:text-4xl w-[95%] sm:w-[100%] mx-auto text-[#272727] text-center">Achieved A-Grades for Students!</h2>
+
+                    {/* --------------- CONTENT ---------------  */}
+                    <div className="mt-12 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+                        {images.map((data, index) => (
+                            <div key={index} className="my-3">
+                                <img className='rounded-lg h-full border border-gray-300' src={data.img} alt="" />
+                            </div>
+                        ))}
+                    </div>
+
+                </div>
+            </section>
 
             {/* --------------- PROCESS WE FOLLOW ---------------  */}
             <Process />

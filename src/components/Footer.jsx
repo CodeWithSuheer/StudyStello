@@ -64,7 +64,7 @@ const Footer = () => {
 
                         {/* PRODUCT & CATEGORIES */}
                         <div>
-                            <p className="text-xl font-semibold text-black tracking-wider">
+                            <p className="text-xl font-semibold text-black">
                                 Services
                             </p>
                             <div className="flex flex-col items-start mt-3 space-y-2">
@@ -92,7 +92,7 @@ const Footer = () => {
 
                         {/* PRODUCT & CATEGORIES */}
                         <div>
-                            <p className="text-xl font-semibold text-black tracking-wider">
+                            <p className="text-xl font-semibold text-black">
                                 Contact Info
                             </p>
                             <div className="flex flex-col items-start mt-3 space-y-2">
@@ -107,6 +107,14 @@ const Footer = () => {
                                     <a href="#" className=""><FaInstagram className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
                                     <a href="#" className=""><FaLinkedinIn className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
                                     <a href="#" className=""><FaTiktok className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" /></a>
+                                </div>
+
+                                {/* PAYMENT METHOLDS */}
+                                <div className="paymentMethods pt-2 flex items-center justify-start gap-2">
+                                    <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299" alt="" />
+                                    <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530" alt="" />
+                                    <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/visa.png?v=1713215529" alt="" />
+                                    <img className="w-8" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529" alt="" />
                                 </div>
 
 

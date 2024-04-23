@@ -1,4 +1,3 @@
-import React from 'react'
 
 
 const Commitments = () => {
@@ -16,7 +15,7 @@ const Commitments = () => {
 
                         {/* CARD 1 */}
                         <div className="service_card box_shadow px-5 py-7 rounded-2xl bg-white">
-                            <img className='mb-4 size-10' src="https://s3-alpha-sig.figma.com/img/0f9f/d9f9/a38b0a21f7dbe1ec930967cf30706cf9?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P1IzUUqENWqFnrspmyocCqBVrSZy-MXd5c3hddXCErlidHUhYwUIR9P6UlOefgw43tcHltCEapI8p6pihdKJ33TTm1kG5FiHT39yCYkUMtdm5QXCB-kb~YZ7Sx-xa0i0WSwkgVOjltcBCQrJVa3C6dMZUL3XTmNFBxqCwbM1hYK9Br5bniS5kQey7GmuPf6nO63AlTTFdhG~sWNiytOtOWWw12okEPOfvlsloeGretmYIaLEWrbCbuPOB8sBlY08UrEk-L6sc9me-FQUfutwhN4IAC5PJIJp0u8yew-WD~yFFRXwtAIN9Am-LzyhOY0w5K3V~J83gllGbyfvWYzd-A__" alt="" />
+                            <img className='mb-4 size-10' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/no-stopping_1_4.png?v=1713363364" alt="" />
                             <h3 className="mb-2  font-semibold text-md text-black group-hover:text-white">Delivering Strategic Solutions</h3>
                             <p className=" text-sm leading-6 font-normal text-black group-hover:text-white">Discover effective solutions tailored to assist you in successfully completing your online tasks, prioritizing timely completion to meet your deadlines with precision.</p>
                         </div>

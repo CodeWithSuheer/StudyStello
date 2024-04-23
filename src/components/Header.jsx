@@ -55,7 +55,7 @@ const Header = () => {
                         {/* COMPANY LOGO */}
                         <Link to="/" className='flex items-center'>
                             <img className='w-12' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/aaa.png?v=1713875658" alt="logo" />
-                            <h2 className='poppins text-gray-800 dark:text-gray-200 text-2xl font-semibold tracking-wide'>Study Stello</h2>
+                            <h2 className='poppins text-gray-800 dark:text-gray-200 text-xl font-semibold tracking-wide'>Study Stello</h2>
                         </Link>
 
                         <div className="md:hidden">
