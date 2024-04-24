@@ -5,7 +5,7 @@ import Proofs from '../../components/Proofs';
 const Samples = () => {
     return (
         <>
-            <section className='sample'>
+            <section className='sample pt-20'>
                 <div className="py-12 sm:py-20 sample_cont px-2.5 flex justify-center items-center flex-col">
                     <h2 className='mb-2 text-white text-2xl sm:text-4xl font-semibold text-center max-w-xl'>Samples</h2>
                     <h2 className='mb-5 text-white text-md sm:text-md font-light text-center max-w-xl'>Home / Samples</h2>

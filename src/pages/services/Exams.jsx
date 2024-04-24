@@ -23,8 +23,8 @@ const Exams = () => {
         <>
 
             {/* --------------- HERO SECTION ---------------  */}
-            <section className="text-white banner_backgroundImage mb-0 lg:mb-0 min-h-[70vh]">
-                <div className="max-w-7xl mx-auto flex px-4 sm:px-5 md:px-10 py-7 md:flex-row flex-col items-center">
+            <section className="text-white banner_backgroundImage mb-0 lg:mb-0 min-h-[72vh]">
+                <div className="max-w-7xl mx-auto flex px-4 sm:px-5 md:px-10 py-24 md:flex-row flex-col items-center">
 
                     {/* CONTENT */}
                     <div className="lg:flex-grow md:w-1/2 xl:pr-20 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left items-start">
