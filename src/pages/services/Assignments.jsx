@@ -8,11 +8,11 @@ import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 import TrustSec from "../../components/TrustSec";
 import Subject from "../../components/Subject";
-import Proofs from "../../components/Proofs";
 import CtaOne from "../home/CtaOne";
 import CtaTwo from "../home/CtaTwo";
 import "../home/Home.css";
 import "./service.css";
+import { Helmet } from "react-helmet";
 
 const Assignments = () => {
   const images = [
@@ -65,6 +65,11 @@ const Assignments = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Write My Assignment | Help Me to Do my Assignment</title>
+      </Helmet>
+
       {/* --------------- HERO SECTION ---------------  */}
       <section className="text-white banner_backgroundImage mb-0 lg:mb-0 min-h-[72vh]">
         <div className="max-w-7xl mx-auto flex px-4 sm:px-5 md:px-10 py-24 md:flex-row flex-col items-center">

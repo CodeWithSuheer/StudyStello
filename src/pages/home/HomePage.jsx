@@ -1,4 +1,3 @@
-import React from "react";
 import Services from "./Services";
 import LogoGrid from "./LogoGrid";
 import ChooseFrom from "./ChooseFrom";
@@ -10,16 +9,23 @@ import Faq from "./Faq";
 import CtaTwo from "./CtaTwo";
 import CtaOne from "./CtaOne";
 import "./Home.css";
+import { Helmet } from "react-helmet";
 
 const HomePage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Study Stello: Academic Writing Services | Online Help with Money Back
+          Guarantee
+        </title>
+      </Helmet>
       {/* --------------- HERO SECTION ---------------  */}
       <section className="gradient">
         <div className="max-w-full pt-24 pb-20 lg:pt-16 lg:pb-10 mx-auto">
           <div className="items-center lg:flex lg:min-h-[85vh]">
             <div className="pt-0 md:pt-2 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-2">
-              
               <div className="content px-5 pt-0 pb-8 sm:pt-14 md:pb-12 sm:px-4 md:px-20 lg:pl-14 xl:pl-16 xl:pr-0">
                 <h2 className="mainHeading mb-5">
                   Access Academic Assistance Promptly, Exactly When You Need It.
